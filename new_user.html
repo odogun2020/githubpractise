@@ -1,0 +1,64 @@
+
+<html>
+<head><title>Welcome</title>
+	<link rel="stylesheet" type="text/css" href="css/welcome.css"/>
+</head>
+<style type="text/css">
+	body{
+		top:0px;
+		background-image:url("image/pic32.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		width:100%;
+		height:100%;
+		margin-left:15px;
+		margin-right:15px;
+		padding:0;
+	 }
+	 .reg{
+	 	background-color:green;
+	    color:gold;
+	    width: 100%;
+	    height: 35px;
+	    font-size:18px;
+	 }
+</style>
+
+	
+
+<body>
+			<center>
+				<div id="reg">
+					 <h1>Create User Page</h1>
+			   </div>
+			
+		<form method="POST">
+		<table>
+			<tr>
+			  <td> Lastname:<input type="text" name="lastname" require="" > </td>
+			</tr>
+			<tr>
+			  <td> Firstname:<input type="text" name="firstname" require="" > </td>
+			</tr>
+			<tr>
+			  <td> Email Address:<input type="text" name="firstname" require="" > </td>
+			</tr>
+			<tr>
+			  <td>Usertype:<select name="user" required="">
+			  	     <option value=""> Select from here</option>
+			  	    <option value="Administrator">Administrator</option>
+			  	    <option value="Reviewer">Reviewer</option>
+			  	    <option value="User">User</option>
+			       </select>  
+			   </td>
+			  
+			</tr>
+			<tr>
+			  <td colspan="2"><center> <input type="submit" name="register" value="REGISTER" > </center></td>
+			</tr>
+		</table>
+    </form>
+  </center>
+</body>
+
+</html>

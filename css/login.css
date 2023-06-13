@@ -1,0 +1,110 @@
+
+#header-reg{
+	 	background-color:green;
+	    color:gold;
+	    width:100%;
+	    height:70px;
+	    font-size: 18px;
+	    opacity:0.8;
+	 }
+	 h1{
+	 	padding-top:12px;
+	 }
+p{
+	 padding-top:20px;
+
+	 }
+
+	 #footer{
+	 position:fixed;
+	 height:40px;
+	 width:100%;
+	 background-color:black;
+	 margin-left:auto;
+	 margin-right:auto;
+	 border:1px solid black;
+	 text-align:center;
+	 color:white;
+	 border-style:groove;	
+	 bottom:0;
+}
+#footer,h2{
+	padding-top:7px;
+	font-size:20px;
+
+}
+
+
+ #r-wrapper{
+  	width:100%;
+  	height:750px;
+  	margin:0px auto;
+  	
+  }
+#r-main{
+	width:100%;
+  	height:600px;
+  	padding-top:20px;	
+  }	 
+/*Add Padding to Container*/
+.container{
+  	height:550px;
+  	padding-top:20px;
+}
+
+
+fieldset{
+	width:300px;
+	padding-top:20px;
+	padding-bottom:5px;
+	height:250px;
+}
+
+
+
+/* full-width inputs*/
+ input[type=text],input[type=password]{
+ 	padding-top: 10px auto;
+ 	padding: 10px 10px;
+ 	margin: 8px 0;
+ 	box-sizing:border-box;
+ 	height: 50px;
+ 	width: 300px;
+ 	border-radius:6px;
+ }
+  
+  select{
+  	padding-top:12px;
+  	height: 40px;
+ 	width: 400px;
+ 	border-radius:6px;
+  }
+  /* styling the button*/
+	button{
+		height: 50px;
+	    width: 80px;
+	    border:none;
+		background-color:#4CAF50;
+		cursor:hand;
+		color:white;
+		border-radius:8px;
+		padding:14px 20px;
+		margin: 8px;
+	}
+
+/*Add a hover effect for button*/
+button{
+	opacity:0.8;
+}
+/*Avater*/
+.avater{
+	width: 500px;
+	height: 60px;
+	font-size: 25px;
+	opacity:0.8;
+	border-radius:25%;
+	color:white;
+	background-color:#4CAF50;
+}
+	
+
